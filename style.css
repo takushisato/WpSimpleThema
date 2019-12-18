@@ -1,0 +1,173 @@
+/*
+Theme Name: t_akushi sato simple thema
+Theme URL: takuchan.club/
+Description: simple thema
+Author: takushi sato
+Author URL: takuchan.club/
+Version: 1.0
+*/
+
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header h1 {
+	margin: 10px;
+}
+
+.blogcard h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.blogcard img {
+    margin: auto 0;
+}
+
+#head-title a {
+    text-decoration:  none;
+}
+
+#menu-menu-1 {
+    display: flex;
+    background-color: #f5f5f5;	
+}
+
+#menu-menu-1 li {
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+#menu-menu-1 li a {
+    font-size: 18px;
+    text-decoration:  none;
+    color: #777777;
+    font-weight: bold;
+}
+
+#main-body {
+    display: flex;
+}
+
+#main-body-left {
+    width: 70%;
+}
+
+#main-body-right {
+    margin-left: 30px;
+	width: 30%;
+}
+
+ul {
+	list-style: none;
+}
+
+.hammenu {
+    display: none;
+}
+
+.blogcard {
+    display: flex;
+    margin: 10px;
+}
+
+.posts {
+    padding-left: 30px;
+}
+
+#comment {
+    display: flex;
+}
+
+#prenext {
+    display: flex;
+    justify-content: space-between;
+}
+
+#next {
+    margin-right: 30px;   
+}
+
+footer {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+@media screen and (max-width:845px) {
+	header h1 {
+	    margin: 10px;	
+	}
+	
+	h2 {
+		background-color: #f5f5f5;
+	}
+	
+	#menu {
+		display: none;
+	}
+	
+	#menu-menu-1 {
+		display: block;
+		width: 100%;
+		margin-top: 60px;
+		padding: 10px;
+		position: fixed;
+		background: rgba( 10, 10, 10, 0.8 );
+		z-index: 990;
+		align-items: center;
+		text-align: center;
+	}
+	
+	#menu-menu-1 li a {
+		color: #fff;
+		font-weight: normal;
+		font-size: 35px;
+
+	}
+	
+	.hammenu {
+		display: flex;
+	}
+	.hammenu img {
+		width: 50px;
+		height: 50px;
+		margin: 0 0 0 auto;
+		padding-right: 10px;
+		cursor : pointer;
+	}
+	
+	#main-body {
+		display: block;
+	}
+	
+	#main-body-left {
+		width: 90%;
+		margin: 20px;
+		
+	}
+
+　　.blogcard {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+    }
+	
+	#main-body-right {
+		width: 85%;
+		align-items: center;
+		text-align: center;
+		list-style: none;
+
+	}
+
+}
+@media screen and (max-width:500px) {
+/*
+    #main-body-left {
+        width: 90%;
+        margin: 0;
+    }
+*/
+
+}
+
